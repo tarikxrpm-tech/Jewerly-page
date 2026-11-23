@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<nav class="navbar">
+
+    <div class="logo">
+       
+        <span>BAYSIDE FINE JEWELRY</span>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- IMAGE SLIDER -->
+<div class="hero-slider">
+
+    <div class="slide active">
+        <img src="bracelet.jpg" alt="Jewelry">
+    </div>
+
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=1400" alt="Bracelet">
+    </div>
+
+    <div class="slide">
+        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1400" alt="Earrings">
+    </div>
+
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+    <div class="dots">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+</div>
+
+<div class="container">
+
+    <!-- SHOP BY JEWELRY TYPE -->
+    <section>
+        <h2 class="section-title">SHOP BY JEWELRY TYPE</h2>
+
+        <div class="jewelry-grid">
+
+            <div class="jewelry-card">
+                <img src="earring.jpg" alt="Earrings">
+                <p>EARRINGS</p>
+            </div>
+
+            <div class="jewelry-card">
+                <img src="necklace.jpg" alt="Necklace">
+                <p>NECKLACES</p>
+            </div>
+
+            <div class="jewelry-card">
+                <img src="bracelet.jpg" alt="Bracelet">
+                <p>BRACELETS</p>
+            </div>
+
+            <div class="jewelry-card">
+                <img src="engagementRing.jpg" alt="Ring">
+                <p>RINGS</p>
+            </div>
+
+            <div class="jewelry-card">
+                <img src="allRing.jpg" alt="Accessories">
+                <p>ACCESSORIES</p>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<!-- HAND CRAFTED SECTION -->
+<div class="handmade">
+
+    <div class="handmade-content">
+        <h2>HAND CRAFTED<br>FINE PIECES.</h2>
+
+        <p>
+            We carefully design and create beautiful
+            handmade jewelry pieces with love,
+            passion and attention to detail.
+        </p>
+
+        <a href="#" class="btn">DISCOVER MORE</a>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=900" alt="Handmade jewelry">
+
+</div>
+
+<div class="container">
+
+    <!-- LATEST JEWELRY -->
+    <section>
+        <h2 class="section-title">OUR LATEST JEWELRY</h2>
+
+        <div class="latest-grid">
+
+            <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=500" alt="Latest jewelry">
+
+            <img src="latestJew2.jpg" alt="Latest jewelry">
+
+            <img src="latestJew3.jpg" alt="Latest jewelry">
+
+        </div>
+
+        <div class="center">
+            <a href="#" class="blue-btn">VIEW ALL</a>
+        </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS -->
+    <section>
+        <h2 class="section-title">CUSTOMER REVIEWS</h2>
+
+        <div class="reviews">
+
+            <div class="review-card">
+                <h4>★★★★★</h4>
+                <p>
+                    Beautiful jewelry and amazing quality.
+                    I absolutely love my purchase!
+                </p>
+                <h5>- Customer</h5>
+            </div>
+
+            <div class="review-card">
+                <h4>★★★★★</h4>
+                <p>
+                    Excellent customer service and
+                    beautiful handmade designs.
+                </p>
+                <h5>- Customer</h5>
+            </div>
+
+            <div class="review-card">
+                <h4>★★★★★</h4>
+                <p>
+                    The jewelry is elegant and
+                    exactly what I was looking for.
+                </p>
+                <h5>- Customer</h5>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OUR SERVICES -->
+    <section>
+        <h2 class="section-title">OUR SERVICES</h2>
+
+        <div class="services">
+
+            <div class="service-card">
+                <img src="serviceImg1.jpg" alt="Jewelry making">
+                <p>JEWELRY MAKING</p>
+            </div>
+
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500" alt="Ring design">
+                <p>RING DESIGN</p>
+            </div>
+
+            <div class="service-card">
+                <img src="serviceImg2.jpg" alt="Designer Ring">
+                <p>Designer ring</p>
+            </div>
+
+        </div>
+
+        <div class="center">
+            <a href="#" class="blue-btn">VIEW SERVICES</a>
+        </div>
+    </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container">
+
+        <div class="footer-feature">
+
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600" alt="Featured ring">
+
+            <div class="footer-content">
+                <h3>STAY IN TOUCH!</h3>
+
+                <p>
+                    Subscribe to our newsletter for
+                    latest jewelry collections and
+                    special offers.
+                </p>
+
+                <a href="#" class="footer-btn">SUBSCRIBE NOW</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>About Us | Contact Us</p>
+            <p>Privacy Policy | Terms</p>
+            <p>© 2026 Jewelry Website</p>
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- SLIDER JAVASCRIPT -->
+<script>
+    let slideIndex = 0;
+
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+
+    function showSlide(index) {
+
+        slides.forEach(slide => {
+            slide.classList.remove("active");
+        });
+
+        dots.forEach(dot => {
+            dot.classList.remove("active");
+        });
+
+        slideIndex = (index + slides.length) % slides.length;
+
+        slides[slideIndex].classList.add("active");
+        dots[slideIndex].classList.add("active");
+    }
+
+    function changeSlide(direction) {
+        showSlide(slideIndex + direction);
+    }
+
+    function currentSlide(index) {
+        showSlide(index);
+    }
+
+    setInterval(function() {
+        changeSlide(1);
+    }, 4000);
+</script>
+
+</body>
+</html>
